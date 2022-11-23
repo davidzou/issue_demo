@@ -3,7 +3,7 @@
 A problem of not refreshing.
 一个不刷新的问题。
 
-![screen](doc/screen.mp4)
+![screen](doc/snapshot.gif)
 
 ### Happened
 
