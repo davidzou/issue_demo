@@ -14,7 +14,7 @@ Engine • revision 3ad69d7be3
 Tools • Dart 2.18.2 • DevTools 2.15.0
 ```
 
-I try to change the color of the Gradient dynamically, but when only one data is updated, the data is updated, but the interface is not updated.
+I try to change the color of the Gradient dynamically, but when only one data is updated, the data is updated in even times, and the widget not refresh in odd times.
 我试图通过动态的改变Gradient的颜色，但是仅更新一个数据的时候，数据被更新了，界面却没有被更新。
 
 [ISSUES-115929](https://github.com/flutter/flutter/issues/115929)
