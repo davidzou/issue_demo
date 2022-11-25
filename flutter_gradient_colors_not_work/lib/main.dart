@@ -67,7 +67,8 @@ class _MyHomePageState extends State<MyHomePage> {
       body: DecoratedBox(
         decoration: BoxDecoration(
             gradient: LinearGradient(
-          colors: GradientNotifier.instance().colors,
+              // FIXED it's ok
+          colors: List.from(GradientNotifier.instance().colors),
         )),
         child: Center(
           child: Column(
@@ -113,9 +114,10 @@ class GradientNotifier with ChangeNotifier {
 
   setColor(int index, Color? color) {
     if (color == null) return;
+    print("pre $colors");
     colors[index] = color;
     print("after $colors");
-    List<Color> temp = colors.toList(growable: true);
+    List<Color> temp = colors.toList(growable: false);
     _colors = temp;
     notifyListeners();
   }

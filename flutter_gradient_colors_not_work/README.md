@@ -20,3 +20,5 @@ I try to change the color of the Gradient dynamically, but when only one data is
 [ISSUES-115929](https://github.com/flutter/flutter/issues/115929)
 
 ### How to solve.
+
+https://github.com/flutter/flutter/issues/115929#issuecomment-1326999776
