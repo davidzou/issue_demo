@@ -3,9 +3,12 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/fluuter_rich_text_not_same/build" />
-      <excludeFolder url="file://$MODULE_DIR$/fluuter_rich_text_not_same/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/fluuter_rich_text_not_same/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_gradient_colors_not_work/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_gradient_colors_not_work/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_gradient_colors_not_work/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_rich_text_not_same/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_rich_text_not_same/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_rich_text_not_same/.dart_tool" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
